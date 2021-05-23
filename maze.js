@@ -21,6 +21,7 @@ class Maze {
       }
       this.grid.push(row);
     }
+    console.log(this.grid);
 
     current = this.grid[0][0];
     this.grid[this.rows - 1][this.columns - 1].goal = true;
